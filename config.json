@@ -1,17 +1,4 @@
 {
   "cache_time": 7200,
-  "api_site": {
-    "regular_site": {
-      "api": " ",
-      "name": "常规影视站",
-      "detail": " ",	  
-      "is_adult": false
-    },
-    "adult_site": {
-      "api": " ",
-      "name": "成人影视站",
-      "detail": " ",
-      "is_adult": true
-    }
-  }
+  "api_site": {}
 }
