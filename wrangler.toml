@@ -47,11 +47,3 @@ NEXT_PUBLIC_ENABLE_REGISTER = "false"
 binding = "DB"
 database_name = "katelyatv-db"
 database_id = "dd24eb07-d35a-471d-ada0-7bd0186ca650"
-
-[build]
-command = "pnpm pages:build"
-environment = { NODE_VERSION = "18" }
-
-[[build.environment_variables]]
-name = "NPM_FLAGS"
-value = "--prefix=/opt/buildhome/.asdf/installs/nodejs/18.17.1/.npm"
