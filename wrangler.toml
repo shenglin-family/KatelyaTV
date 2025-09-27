@@ -1,5 +1,7 @@
 name = "katelyatv"
 compatibility_date = "2024-09-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".vercel/output/static"
 
 [env.production]
 name = "katelyatv"
@@ -44,7 +46,7 @@ NEXT_PUBLIC_ENABLE_REGISTER = "false"
 [[env.production.d1_databases]]
 binding = "DB"
 database_name = "katelyatv-db"
-database_id = "ff50c27e-7ebe-47fb-9ceb-deb6d524347a"
+database_id = "dd24eb07-d35a-471d-ada0-7bd0186ca650"
 
 [build]
 command = "pnpm pages:build"
